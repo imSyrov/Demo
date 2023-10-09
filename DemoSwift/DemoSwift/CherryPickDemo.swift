@@ -15,3 +15,7 @@ fileprivate func foo() -> String {
 fileprivate func foo1() -> String {
     "Cherry-pick execute"
 }
+
+fileprivate func demoCp() {
+    "cherry-pick run"
+}
