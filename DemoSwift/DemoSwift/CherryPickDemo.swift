@@ -11,3 +11,7 @@ import Foundation
 fileprivate func foo() -> String {
     "Cherry-pick demo"
 }
+
+fileprivate func foo1() -> String {
+    "Cherry-pick execute"
+}
