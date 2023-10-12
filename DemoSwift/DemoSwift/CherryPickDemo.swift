@@ -27,3 +27,7 @@ fileprivate func foo2() -> String {
 fileprivate func foo3() {
     print("cherry-pick foo 3")
 }
+
+fileprivate func foo4() {
+    print("ggggg")
+}
