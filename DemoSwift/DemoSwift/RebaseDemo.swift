@@ -22,3 +22,7 @@ fileprivate func foo3() -> String {
 fileprivate func foo4() -> String {
     "rebase demo 4"
 }
+
+fileprivate func foo5() -> String {
+    "rebase demo 5"
+}
