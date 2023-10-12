@@ -39,6 +39,10 @@ func sum(_ a: String, _ b: String ) -> String {
     a + b
 }
 
+func dif(_ a: Int, _ b: Int ) -> Int {
+    a - b
+}
+
 let sumName = curry(sum(_:_:)) ("name")
 let sumName1 = papply(sum(_:_:), "name")
 
