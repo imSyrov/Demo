@@ -19,3 +19,7 @@ fileprivate func foo1() -> String {
 fileprivate func demoCp() {
     "cherry-pick run"
 }
+
+fileprivate func foo2() -> String {
+    "cherry-pick foo 2"
+}
