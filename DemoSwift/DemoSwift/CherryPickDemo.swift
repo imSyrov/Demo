@@ -23,3 +23,7 @@ fileprivate func demoCp() {
 fileprivate func foo2() -> String {
     "cherry-pick foo 2"
 }
+
+fileprivate func foo3() {
+    print("cherry-pick foo 3")
+}
