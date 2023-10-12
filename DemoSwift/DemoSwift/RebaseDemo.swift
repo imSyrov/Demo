@@ -10,3 +10,7 @@ import Foundation
 fileprivate func foo1() -> String {
     "rebase demo"
 }
+
+fileprivate func foo2() -> String {
+    "rebase demo 2"
+}
