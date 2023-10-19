@@ -10,3 +10,7 @@ import Foundation
 func getDate() -> Date {
     Date.now
 }
+
+func printing(_ s: String) {
+    print("clear func with \(s)")
+}
