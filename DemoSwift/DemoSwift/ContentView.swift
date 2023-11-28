@@ -8,14 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack(alignment: .leading, spacing: 28) {
+            HStack(alignment: .center) {
+                Text("Host Setting")
+                    .padding(.trailing)
+            }
+            VStack(alignment: .leading) {
+                Text("Enter link")
+                    .font(.system(size: 14))
+            }
+            Spacer()
+            Button { } label: {
+                HStack {
+                    Spacer()
+                    Text("Connection")
+                        .font(.system(size: 14))
+                    Spacer()
+                }
+            }
+            .padding(.horizontal)
         }
-        .padding()
+        .padding([.horizontal, .bottom], 16)
     }
 }
 

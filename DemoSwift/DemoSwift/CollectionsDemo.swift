@@ -38,16 +38,13 @@ var mySet2: Set = [1,2,3]
 ///  !!!  a.hashCode != b.hashCode -> гарантировано a != b
 ///     НО: a.hashCode == b.hashCode не значит, что a == b  КОЛЛИЗИЯ
 
-
-/// Sequence
-/// Тип, обеспечивающий последовательный итерационный доступ к своим элементам.
-/// func makeIterator() -> Self.Iterator
-///  Sequence + IteratorProtocol если тип может быть итератором -> реализовать func next -> Self.Iterator?
-
 /// Collection
 /// Последовательность, элементы которой могут быть пройдены несколько раз неразрушающим образом и доступны по индексированному индексу.
 /// starIndex + endIndex
 /// Индекс, который обеспечивает доступ как минимум только для чтения к элементам вашего типа.
 /// index(after: )
 
-
+/// Sequence
+/// Тип, обеспечивающий последовательный итерационный доступ к своим элементам.
+/// func makeIterator() -> Self.Iterator
+///  Sequence + IteratorProtocol если тип может быть итератором -> реализовать func next -> Self.Iterator?
